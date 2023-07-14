@@ -1,0 +1,2 @@
+/* Learned anout the four different types of data types. How to create variable with the key word let;
+how to name variables with camelCase and how to use basic mathematical operators to perform mathematical solutions. */
