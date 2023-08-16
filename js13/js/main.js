@@ -1,21 +1,63 @@
-// Function Declaration Syntax:
+// var, let, and const
 
-function sum (num1, num2) {
+var x = 1;
 
-console.log(num1); console.log(num2);
+//let y = 2;
 
-return num1 + num2;
+//const z = 3;
+
+// local scope
+
+function myFunc()
+
+const z = 5;
+
+console.log(z);
+
+// local scope
+
+let y = 4;
+
+console.log(y);
 
 }
 
-console.log(sum(2)); 
+
+myFunc();
 
 
+console.log(`global: ${x}');
 
-const toProperCase (name) => {
+console.log(global: ${y}'); console.log(global: ${z}`);
 
-return name.charAt(0).toUpperCase()+ name.slice(1).toLowerCase();
+function myFunc() {
 
-};
+var x = 10;
 
-console.log(toProperCase("september"));
+const z = 5;
+
+{
+
+var x =
+
+// function scoped
+
+const z = 6;
+
+console.log('block: ${x}`);
+
+console.log('block: ${y}');
+
+console.log('block: ${z}`);
+
+}
+
+console.log(function: ${x}');
+
+console.log( function: ${y}`);
+
+console.log( function: ${z}`);
+
+}
+
+myFunc();
